@@ -1,0 +1,20 @@
+Download IDE (Integrated Development Environment) from Arduino if you don't already have it
+Choose the operating system, as an example we use windows 64bits
+You can give some trusted message when you download, accept them
+Complete the installation by accepting the completements you propose
+On the anaire.org you'll find the .h and .config files you'll need for the microcontroller
+In the IDE, choose > Preferences > Additional URL Manager Cards
+Copy this URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
+We choose the card we use
+In the IDE, > Tools > Travert Manager > "esp8266 ESP266 comunity"
+We seal the port, Tools > port (in our case we check in the device manager where it is, com3)
+To assemble the components in the protoboard we follow the schematic of the anaire.org
+The power adapter matches the pins of the protoboard, it is important for the power to match + and -
+We recommend connecting the power wires first with red + and black wires -
+With different color cables you can connect the data that communicates the microprocessor to the different sensors and components
+Check the first time we give correinet that the green indicator light of the adapter turns on (otherwise disconnect and check)
+Compile and record the program
+It is advisable to open the serial monitor, > Serial Monitor Tools
+(Follow the instructions marked in the program, wifi network settings if applicable)
+We will already have a connection and we will be able to start with the serial monitor once it is reset that we read temperature, humidity and CO2 level
+Enjoy the installation
