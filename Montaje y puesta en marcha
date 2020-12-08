@@ -1,0 +1,20 @@
+Descarga IDE (Entorno de desarrollo integrado) de Arduino si aún no lo tienes
+Elige el sistema operativo, como ejemplo usamos windows 64bits
+Puede dar algún mensaje de confianza al descargar, aceptalos
+Completa la instalación aceptando los completmentos que propone
+En la web de anaire.org encontrarás los archivos .h y .config que necesitarás para el microcontrolador
+En el IDE, elige Archivo > Preferencias > Gestor URL Adicionales Tarjetas
+Copia esta URL http://arduino.esp8266.com/stable/package_esp8266com_index.json
+Elegimos la tarjeta que utilizamos
+En el IDE, Herramientas > placa > Gestor de trarjetas > "esp8266 ESP266 comunity"
+Sellecionamos el puerto, Herramientas > puerto (en nuestro caso comprobamos en el administrador de dispositivos donde está, com3)
+Para montar los componentes en la protoboard seguimos el esquema de la web de anaire.org
+El adaptador de corriente coincide con las patillas = de la protoboard, es importante para que coincida la alimentación + y -
+Recomendamos conectar la alimentación primero con hilos rojo + y negro -
+Con cables de colores diferentes conecta los datos que comunican el microprocesador a los distintos sensores y compoentes
+Comprobar la primera vez que damos correinet que el piloto verde del adaptador se enciende (de lo contrario desconectar y revisar)
+Compilar y grabar el programa
+Conviene abrir el monitor serie, Herramientas > Monitor Serie
+(Seguir las instrucciones marcadas en el programa, configuración de red wifi en su caso)
+Ya tendremos conexión y podremos combrobar con el monitor serie una vez que se resetee que leemos temperatura, humedad y nivel de CO2
+Disfrutad de la instalación
